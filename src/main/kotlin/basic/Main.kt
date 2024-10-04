@@ -1,4 +1,4 @@
-package com.tsw
+package basic
 
 fun printMessage(message: String): Unit {                               // 1
     println(message)
