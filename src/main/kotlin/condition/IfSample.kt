@@ -8,7 +8,8 @@ fun main(args: Array<String>) {
     println("a는 $a")
     println("b는 $b")
 
-    if (a > b) println("${a}는 ${b}보다 큽니다.")
+    if (a > b) println("$a 는 $b 보다 큽니다.")
+    if (a < b) println("$a 는 $b 보다 작습니다.")
 
     if (a < b) {
         println("${b}는 ${a}보다 큽니다.")
