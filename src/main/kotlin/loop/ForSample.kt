@@ -13,6 +13,4 @@ fun main(args: Array<String>) {
     val num1: Int = 2
     val num2: Int = 4
     for (n in num1..num2) println(n)
-    
-
 }

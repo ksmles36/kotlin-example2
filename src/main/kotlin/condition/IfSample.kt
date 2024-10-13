@@ -27,12 +27,13 @@ fun main(args: Array<String>) {
 
     if (a in 1..5) println("${a}는 1~5 사이입니다.")
 
-    val max = if (a < b) {
-        println("max is $b")
-        b
-    } else {
-        println("max is $a")
-        a
-    }
+    val max =
+        if (a < b) {
+            println("max is $b")
+            b
+        } else {
+            println("max is $a")
+            a
+        }
     println(max)
 }
