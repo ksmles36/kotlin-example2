@@ -1,6 +1,10 @@
 package inheritance
 
-open class Car(val name: String, val price: Double, val brand: String) {
+open class Car(
+    val name: String,
+    val price: Double,
+    val brand: String,
+) {
     fun introduce() {
         println("this car is $name. this is made by $brand.")
     }

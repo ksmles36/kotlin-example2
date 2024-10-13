@@ -1,6 +1,9 @@
 package classes
 
-class KsmPerson(private val name: String, private val age: Int) {
+class KsmPerson(
+    private val name: String,
+    private val age: Int,
+) {
     var address: String = ""
 
     init {

@@ -1,6 +1,9 @@
 package classes
 
-class PersonWithConstructor constructor(private val name: String, private val age: Int) { // 주 생성자
+class PersonWithConstructor constructor(
+    private val name: String,
+    private val age: Int,
+) { // 주 생성자
 
     private var etc: String = "no value"
 
