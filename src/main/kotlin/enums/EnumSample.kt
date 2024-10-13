@@ -10,7 +10,10 @@ enum class Color(
     BLUE("blue", "#0000FF"),
 }
 
-enum class HttpStatus(val label: String, val code: Int) {
+enum class HttpStatus(
+    val label: String,
+    val code: Int
+) {
     REDIRECT("redirect", 300) {
         override fun isServerError(): Boolean {
             return false
@@ -30,7 +33,10 @@ enum class HttpStatus(val label: String, val code: Int) {
     abstract fun isServerError(): Boolean
 }
 
-enum class HttpStatus2(val label: String, val code: Int) : CheckStatus {
+enum class HttpStatus2(
+    val label: String,
+    val code: Int
+) : CheckStatus {
     REDIRECT("redirect", 300) {
         override fun isServerError(): Boolean {
             return false
