@@ -1,6 +1,9 @@
 package enums
 
-enum class Color(val label: String, val code: String) {
+enum class Color(
+    val label: String,
+    val code: String,
+) {
     RED("red", "#FE2E2E"),
     YELLOW("yellow", "#F7FE2E"),
     GREEN("green", "#40FF00"),

@@ -1,8 +1,14 @@
 package dataclass
 
-data class DataClassSample(val name: String, val age: Int)
+data class DataClassSample(
+    val name: String,
+    val age: Int,
+)
 
-class NoDataClassSample(val name: String, val age: Int)
+class NoDataClassSample(
+    val name: String,
+    val age: Int,
+)
 
 fun main() {
     val data1 = NoDataClassSample(name = "flature", age = 10)
